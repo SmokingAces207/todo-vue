@@ -1,5 +1,7 @@
 // https://eslint.org/docs/user-guide/configuring
 
+const { off } = require("node-notifier");
+
 module.exports = {
   root: true,
   parserOptions: {

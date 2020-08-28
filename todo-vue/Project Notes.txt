@@ -1,0 +1,20 @@
+Project Notes:
+
+This is a single page application.
+For this project I used NPM to manage my front end libraries.
+VueJS is the front end framework of choice for this project. It is a lightweight framework, which is perfect for a small application like this.
+I have decided to make use of SASS, this gives me the option to nest selectors, which creates more powerful Style Sheets.
+
+Using the Thymeleaf templating engine for template rendering, and passing variables from the front end to the backend.
+
+I also used the Animate CSS library to add some smooth animations to the project.
+
+I've decided to use the Lombok library to avoid lots of extra boilerplate code, such as getters and setters. 
+This helps the Entity files stay clean and easy to read.
+
+Maven command to main run application from root:
+mvn spring-boot:run
+
+To run front end applicaition. cd into todo-view folder.
+Then run : npm run dev
+

@@ -1,0 +1,158 @@
+  * {
+    box-sizing: border-box;
+    font-family: "Proxima Nova";
+  }
+
+  #titlePanel {
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 14px;
+  }
+
+  #headerTitle {
+    font-size: 36px;
+    font-weight: 800;
+  }
+
+  #toggle-new-task-modal {
+    font-size: 0.7em !important;
+    float: right;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* text-align: center; */
+    color: #2c3e50;
+    margin-top: 60px;
+    font-size: 24px;
+  }
+  
+  .logo {
+    float: left;
+    margin: 20px auto;
+    height: 75px;
+  }
+  
+  .task-input {
+    width: 100%;
+    padding: 10px 18px;
+    font-size: 18px;
+    margin-bottom: 16px;
+  
+    &:focus {
+      outline: 0;
+    }
+  }
+  
+  .task-item {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation-duration: 0.3s;
+  }
+  
+  .remove-item {
+    cursor: pointer;
+    margin-left: 14px;
+  
+    &:hover {
+      color: black;
+    }
+  }
+  
+  .task-item-left {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .task-item-checkbox {
+    margin-top: 16px;
+  }
+  
+  .task-item-label {
+    padding: 10px;
+    border: 1px solid white;
+    margin-left: 12px;
+  }
+  
+  .task-item-edit {
+    color: #2c3e50;
+    margin-left: 12px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: "Avenir", Arial, Helvetica, sans-serif;
+  
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
+  button {
+    color: white;
+    background: rgba(237, 77, 36, 1);
+    border: 1px solid rgba(237, 77, 36, 1);
+    border-radius: 2px;
+    appearance: none;
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.2em;
+  
+    &:hover {
+      background: rgb(226, 169, 153);
+    }
+  
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  .btn-logo {
+    font-size: 1em;
+    padding-right: 8px;
+  }
+  
+  .extra-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.7em !important;
+    border-top: 1px solid lightgrey;
+    padding-top: 14px;
+    margin-bottom: 14px;
+  }
+  
+  .active {
+    background: rgb(226, 169, 153);
+  }
+  
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.2s;
+  }
+  
+  .fade-enter,
+  .fade-leave-to {
+    opacity: 0;
+  }
+  
+  .display-date {
+    font-size: 0.7em;
+    font-weight: 300;
+  }
+  
+  .fa-edit {
+    font-size: 0.8em;
+  }

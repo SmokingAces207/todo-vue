@@ -1,8 +1,8 @@
 {
-  "name": "todo-vue",
+  "name": "task-vue",
   "version": "1.0.0",
-  "description": "A Todo List Applicatjsio",
-  "author": "Joseph O'Callaghan <joseph.ocallaghan@clientsolutions.ie>",
+  "description": "A Simple Task List Application",
+  "author": "Joseph O'Callaghan <josephocall@live.ie>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -11,7 +11,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2"
+    "axios": "^0.20.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.2.0",
+    "vue": "^2.5.2",
+    "vuejs-logger": "^1.5.4"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -53,7 +57,7 @@
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
-    "webpack": "^3.6.0",
+    "webpack": "^3.12.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",
     "webpack-merge": "^4.1.0"
