@@ -1,6 +1,13 @@
-# todo-vue
+# Task-Manager-VueJS
 
 Project Notes:
+
+This application is a simple task manager, it allows users to add tasks to a list.
+They can set a date, priority, title and description.
+Tasks can be updated after they are created, marked as complete, or deleted.
+Another key feature of the application, is the ability to filter completed, or active tasks.
+
+Two features that have yet to be fully implemented are the "Check All", and "Clear Completed" features.
 
 This application consists of two microservices, one for the front end VueJS and one for the backend Java Spring boot.
 The frontend (todo-vue) application runs on port 8080 of your localhost.

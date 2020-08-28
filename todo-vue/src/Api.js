@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const SERVER_URL = 'http://localhost:8081/taskmanager';
+const SERVER_URL = 'http://localhost:8081';
 
 const instance = axios.create({
     baseURL: SERVER_URL,
